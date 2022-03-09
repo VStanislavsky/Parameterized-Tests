@@ -8,8 +8,7 @@ package ru.netology.sqr;
              int x = i * i;
              if (x >= a && x <= b){
                  x=1;
-                 counter = 0+x+x ;
-                 //System.out.println ( counter);
+                 counter = counter +1 ;
              }
          }
          return counter ;
